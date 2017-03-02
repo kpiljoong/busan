@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'busan';
+
+var cli = require('../cli/commands'),
+    command = process.argv[3];
+
+cli.run(command);

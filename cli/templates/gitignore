@@ -1,0 +1,10 @@
+###########
+## General
+###########
+.DS_Store
+thumbs.db
+
+###########
+## npm
+###########
+node_modules/

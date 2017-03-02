@@ -1,0 +1,12 @@
+{
+    "passfail": false,
+    "maxerr": 100,
+
+    "debug": false,
+    "devel": false,
+
+    "maxparams": 5,
+    "maxdepth": 3,
+    "maxstatements": 25,
+    "maxcomplexity": 6
+}

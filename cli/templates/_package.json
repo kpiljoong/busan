@@ -1,0 +1,23 @@
+{
+    "name": "<%= appName %>",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "test": "grunt test",
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "dependencies": {
+        "busan": "git+ssh://git@ethank.me:1819/home/git/repos/busan.git",
+        "express": "~3.4.4"
+    },
+    "devDependencies": {
+        "mocha": "~1.10.0",
+        "grunt": "~0.4.1",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-jshint": "~0.6.4",
+        "grunt-mocha-cli": "~1.3.0"
+    }
+}

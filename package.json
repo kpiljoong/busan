@@ -1,0 +1,25 @@
+{
+  "name": "busan",
+  "version": "0.0.1",
+  "description": "A city, Busan, and Web Framework",
+  "author": "Piljoong Kim <kpiljoong@gmail.com>",
+  "engineStrict": true,
+  "main": "index.js",
+  "bin": {
+    "busan": "bin/busan"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "web-framework"
+  ],
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "iconv-lite": "^0.4.15",
+    "inquirer": "^3.0.5",
+    "isbinaryfile": "^3.0.2",
+    "nodent": "^3.0.13",
+    "url": "^0.11.0"
+  }
+}
